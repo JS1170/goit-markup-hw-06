@@ -660,11 +660,6 @@ li {
 
 
 
-
-
-
-
-
 /* Внимание к деталям */
 
 .section {
@@ -960,12 +955,10 @@ li {
 
 
 
-/* footer style */
+/* Footer style */
 
 
 .footer-block {
-        display: block;
-        padding-top: 60px;
         padding-bottom: 60px;
         background-color: var(--footer-background-color);
        
@@ -973,13 +966,12 @@ li {
 
 .address {
         display: flex;
-        align-items: baseline;
 }
 
 .address-box {
-       
         margin-right: 70px;
-}
+        padding-top: 60px;
+        }
 
 .address-list__item:not(:last-child) {
         margin-bottom: 9px;
@@ -997,9 +989,13 @@ li {
         color: var(--secondary-link-color);
 }
 
+
 /* Блок социальных сетей */
 
-
+.social-box {
+        padding-top: 72px;
+        margin-right: 93px;
+}
 
 .footer-tittle {
         margin-top: 0;
@@ -1085,6 +1081,86 @@ li {
         color: var(--white-text-color);
       
 }
+
+
+
+/* Блок "Подпишитесь на рассылку" */
+
+.subscribe {
+        padding-top: 72px;
+}
+
+
+.form {
+        display: flex;
+}
+
+.label {
+        margin-right: 12px;
+}
+
+.mailbtn {
+        display: flex;
+        justify-content: center;
+        margin-left: 12px;
+        min-width: 200px;
+        height: 50px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+        padding: 10px 29px;
+        align-items: center;
+        text-align: center;
+        font-family: inherit;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1,88;
+        cursor: pointer;
+        letter-spacing: 0.06em;
+        color: var(--white-text-color);
+        background: var(--accent-color);
+        border: 1px solid transparent;
+}
+
+.field {
+        display: flex;
+        width: 358px;
+        height: 50px;
+        padding: 15px 16px;
+        outline: none;
+        background-color: transparent;
+        border: 1px solid var(--main-text-color);
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+        border-radius: 4px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1,25;
+        color: var(--main-text-color);
+        align-items: center;
+
+}
+
+.mailbtn-icon {
+        background-color: transparent;
+        fill: var(--white-background-color);
+        margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
